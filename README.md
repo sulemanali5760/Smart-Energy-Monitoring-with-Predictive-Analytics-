@@ -12,7 +12,7 @@ A data-driven project that combines **real-time monitoring** and **machine learn
 
 ---
 
-## 🏗️ System Architecture  
+## 📊 System Architecture
 
 ```mermaid
 flowchart LR
