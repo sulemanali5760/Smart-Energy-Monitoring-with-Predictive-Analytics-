@@ -12,11 +12,11 @@ A data-driven project that combines **real-time monitoring** and **machine learn
 
 ` ``` `
 
- ## 📊 System Architecture
+ 📊 System Architecture
 
 ```mermaid
 flowchart LR
-    
+    A[Energy Data Source - Smart Meter or CSV] --> B[Python Preprocessing - Pandas]
     B --> C[Forecasting Models - ARIMA / Prophet]
     B --> D[Anomaly Detection - Thresholds]
     C --> E[Visualization Dashboard]
