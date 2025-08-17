@@ -7,7 +7,7 @@ A data-driven project that combines **real-time monitoring** and **machine learn
 ## 📌 Features  
 - 📊 Real-time monitoring of energy consumption  
 - 🔮 Predictive analytics with ARIMA / Prophet  
-- 🚨 Anomaly detection for unexpected spikes/drops  
+
 - 📈 Dashboard with live vs forecasted energy usage  
 
 ` ``` `
