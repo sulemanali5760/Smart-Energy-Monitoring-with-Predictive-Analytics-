@@ -1,4 +1,4 @@
-## ⚡ Smart Energy Monitoring with Predictive Analytics  
+# ⚡ Smart Energy Monitoring with Predictive Analytics  
 
 A data-driven project that combines **real-time monitoring** and **machine learning forecasting** to optimize energy usage in industrial systems.  
 
@@ -7,26 +7,27 @@ A data-driven project that combines **real-time monitoring** and **machine learn
 ## 📌 Features  
 - 📊 Real-time monitoring of energy consumption  
 - 🔮 Predictive analytics with ARIMA / Prophet  
-
+- 🚨 Anomaly detection for unexpected spikes/drops  
 - 📈 Dashboard with live vs forecasted energy usage  
 
-` ``` `
+---
 
- 📊 System Architecture
+## 📊 System Architecture  
 
 ```mermaid
 flowchart LR
-    A[Energy Data Source - Smart Meter or CSV] --> B[Python Preprocessing - Pandas]
-    B --> C[Forecasting Models - ARIMA / Prophet]
-    B --> D[Anomaly Detection - Thresholds]
+    A[Energy Data Source (Smart Meter / CSV)] --> B[Python Preprocessing (Pandas)]
+    B --> C[Forecasting Models (ARIMA / Prophet)]
+    B --> D[Anomaly Detection (Thresholds)]
     C --> E[Visualization Dashboard]
     D --> E[Visualization Dashboard]
+```
 
-
+---
 
 ## 🖥️ Dashboard Example  
 
-
+![Dashboard Screenshot](images/dashboard.png)  
 
 ---
 
@@ -56,7 +57,7 @@ flowchart LR
 
 ---
 
- ## 📊 Example Results  
+## 📊 Example Results  
 
 - Forecast horizon: 24 hours  
 - Accuracy (MAPE): ~10%  
@@ -64,7 +65,7 @@ flowchart LR
 
 ---
 
- 📂 Project Structure  
+## 📂 Project Structure  
 
 ```
 smart-energy-monitoring/
@@ -83,7 +84,5 @@ smart-energy-monitoring/
 
 ---
 
- 🌱 Impact  
+## 🌱 Impact  
 This project shows how **predictive analytics in energy management** can reduce costs, avoid failures, and contribute to sustainable industry practices.  
-
----
