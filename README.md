@@ -17,7 +17,7 @@ A data-driven project that combines **real-time monitoring** and **machine learn
 ```mermaid
 flowchart LR
     A[Energy Data Source: Smart Meter or CSV File] --> B[Python Preprocessing with Pandas]
-    B --> C[Forecasting Models using ARIMA or Prophet]
+    B --> C[Forecasting Models: ARIMA or Prophet]
     B --> D[Anomaly Detection with Thresholds]
     C --> E[Visualization Dashboard]
     D --> E[Visualization Dashboard]
@@ -25,9 +25,46 @@ flowchart LR
 
 ---
 
+## 🔎 Data Flow  
+
+```mermaid
+sequenceDiagram
+    participant Sensor as Smart Meter
+    participant Python as Data Pipeline
+    participant Model as Forecasting Model
+    participant Dash as Dashboard
+
+    Sensor->>Python: Stream raw energy data
+    Python->>Model: Clean + preprocess
+    Model-->>Python: Forecast future usage
+    Python->>Dash: Send metrics + anomalies
+    Dash->>User: Display KPIs & Alerts
+```
+
+---
+
+## 🚨 Anomaly Detection Workflow  
+
+```mermaid
+flowchart TD
+    A[Incoming Energy Data] --> B[Apply Rolling Average]
+    B --> C[Set Dynamic Thresholds]
+    C --> D{Is value outside threshold?}
+    D -->|Yes| E[Trigger Anomaly Alert 🚨]
+    D -->|No| F[Log Normal Operation]
+```
+
+---
+
 ## 🖥️ Dashboard Example  
 
 ![Dashboard Screenshot](images/dashboard.png)  
+
+KPIs displayed:  
+- Current Load (kWh)  
+- Forecasted Load (next 24h)  
+- Anomaly Alerts  
+- Daily Peak vs Average Usage  
 
 ---
 
