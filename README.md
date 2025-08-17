@@ -6,7 +6,7 @@ A data-driven project that combines **real-time monitoring** and **machine learn
 
 ## 📌 Features  
 - 📊 Real-time monitoring of energy consumption  
-- 🔮 Predictive analytics with ARIMA / Prophet  
+- 🔮 Predictive analytics with ARIMA or Prophet  
 - 🚨 Anomaly detection for unexpected spikes/drops  
 - 📈 Dashboard with live vs forecasted energy usage  
 
@@ -16,8 +16,8 @@ A data-driven project that combines **real-time monitoring** and **machine learn
 
 ```mermaid
 flowchart LR
-    A[Energy Data Source (Smart Meter / CSV)] --> B[Python Preprocessing (Pandas)]
-    B --> C[Forecasting Models (ARIMA / Prophet)]
+    A[Energy Data Source (Smart Meter or CSV)] --> B[Python Preprocessing (Pandas)]
+    B --> C[Forecasting Models (ARIMA or Prophet)]
     B --> D[Anomaly Detection (Thresholds)]
     C --> E[Visualization Dashboard]
     D --> E[Visualization Dashboard]
