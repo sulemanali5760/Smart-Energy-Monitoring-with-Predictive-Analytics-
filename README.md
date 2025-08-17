@@ -27,7 +27,7 @@ flowchart LR
 
 ## 🖥️ Dashboard Example  
 
-![Dashboard Screenshot](images/dashboard.png)  
+
 
 ---
 
