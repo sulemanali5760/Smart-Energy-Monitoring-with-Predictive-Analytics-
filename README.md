@@ -1,3 +1,4 @@
+---
 # ⚡ Smart Energy Monitoring with Predictive Analytics  
 
 A data-driven project that combines **real-time monitoring** and **machine learning forecasting** to optimize energy usage in industrial systems.  
