@@ -10,7 +10,7 @@ A data-driven project that combines **real-time monitoring** and **machine learn
 - 🚨 Anomaly detection for unexpected spikes/drops  
 - 📈 Dashboard with live vs forecasted energy usage  
 
----
+` ``` `
 
  ## 📊 System Architecture
 
